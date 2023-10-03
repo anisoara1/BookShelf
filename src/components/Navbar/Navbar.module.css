@@ -1,0 +1,20 @@
+h1 {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  background: #d6c099;
+  color: #8e8a92;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+a {
+  color: #8e8a92;
+  text-decoration: none;
+}

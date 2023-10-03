@@ -1,0 +1,19 @@
+div {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.favorites {
+  padding: 20px;
+  min-height: 80vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  justify-items: center;
+  background: #fdf4e3;
+  color: #b44c3a;
+  text-align: center;
+}
