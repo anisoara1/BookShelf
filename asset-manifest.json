@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BookShelf/static/css/main.c5367d45.css",
+    "main.js": "/BookShelf/static/js/main.51c8ec10.js",
+    "index.html": "/BookShelf/index.html",
+    "main.c5367d45.css.map": "/BookShelf/static/css/main.c5367d45.css.map",
+    "main.51c8ec10.js.map": "/BookShelf/static/js/main.51c8ec10.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5367d45.css",
+    "static/js/main.51c8ec10.js"
+  ]
+}
