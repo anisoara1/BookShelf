@@ -17,3 +17,34 @@ div {
   color: #b44c3a;
   text-align: center;
 }
+
+.favorites img {
+  width: 340px;
+  height: 450px;
+}
+
+@media screen and (max-width: 1200px) {
+  .favorites img {
+    width: 280px;
+    height: 370px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .favorites {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 614px) {
+  .favorites img {
+    width: 230px;
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 504px) {
+  .favorites {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

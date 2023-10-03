@@ -18,3 +18,9 @@ a {
   color: #8e8a92;
   text-decoration: none;
 }
+
+@media screen and (max-width: 504px) {
+  a {
+    font-size: smaller;
+  }
+}

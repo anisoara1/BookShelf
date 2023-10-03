@@ -1,11 +1,12 @@
 div {
+  overflow: hidden;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 .bookTitle {
-  width: small;
+  font-size: small;
   transition: all 0.5s ease-out;
 }
 
@@ -45,6 +46,7 @@ div {
   text-align: center;
   margin: 30px 0;
 }
+
 .book:hover {
   opacity: 0.8;
   -webkit-transform: scale(1.1, 1.1);
@@ -66,4 +68,30 @@ button {
 button:hover {
   background-color: #753226;
   color: azure;
+}
+
+@media screen and (max-width: 1200px) {
+  .image {
+    width: 280px;
+    height: 370px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .bookList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 614px) {
+  .image {
+    width: 230px;
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 504px) {
+  .bookList {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

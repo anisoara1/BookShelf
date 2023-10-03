@@ -3,6 +3,7 @@ div {
   padding: 0;
   margin: 0;
 }
+
 .bookdetails {
   color: #8e8a92;
   padding: 20px;
@@ -26,4 +27,47 @@ div {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1200px) {
+  .cardImg {
+    width: 280px;
+    height: 370px;
+  }
+  .card {
+    width: 40%;
+  }
+  .details {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 920px) {
+  .cardImg {
+    width: 230px;
+    height: 320px;
+  }
+  .card {
+    width: 35%;
+  }
+  .details {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .cardImg {
+    width: 280px;
+    height: 370px;
+  }
+
+  .bookdetails {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+  .details {
+    width: 100%;
+  }
 }
