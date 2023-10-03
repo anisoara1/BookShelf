@@ -3,3 +3,27 @@ div {
   padding: 0;
   margin: 0;
 }
+.bookdetails {
+  color: #8e8a92;
+  padding: 20px;
+  display: flex;
+}
+
+.card {
+  width: 50%;
+  padding: 10px;
+}
+
+.cardImg {
+  width: 340px;
+  height: 450px;
+}
+.details {
+  padding: 10px;
+  width: 50%;
+  color: #8e8a92;
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}

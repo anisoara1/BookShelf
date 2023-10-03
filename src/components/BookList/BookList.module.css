@@ -4,11 +4,12 @@ div {
   margin: 0;
 }
 
-h2 {
+.bookTitle {
+  width: small;
   transition: all 0.5s ease-out;
 }
 
-h2:hover {
+.bookTitle:hover {
   -webkit-transform: scale(1.1, 1.1);
   transform: scale(1.1, 1.1);
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.262);
@@ -29,7 +30,7 @@ h2:hover {
   color: #b44c3a;
 }
 
-img {
+.image {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
   box-sizing: border-box;
   display: block;

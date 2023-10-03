@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-/* import css from './BookDetails.module.css'; */
+import css from './BookDetails.module.css';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import { BOOK_DETAILS_URL } from 'api';
@@ -19,12 +19,12 @@ const BookDetails = () => {
   }, [id, setBook]);
 
   return (
-    <div className="bookdetails">
-      <div>
+    <div className={css.bookdetails}>
+      <div className={css.card}>
         <h2>{book?.title}</h2>
-        <img src={book?.image_url} alt="#" />
+        <img className={css.cardImg} src={book?.image_url} alt="#" />
       </div>
-      <div>
+      <div className={css.details}>
         <h2>Description</h2>
         <p>{book?.description}</p>
         <h2>Authors</h2>

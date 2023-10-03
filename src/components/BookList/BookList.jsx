@@ -31,10 +31,15 @@ const BookList = () => {
       {books.map(book => (
         <div key={book.id} className={css.book}>
           <div>
-            <h2 onClick={() => navigate(`/books/${book.id}`)}>{book.title}</h2>
+            <h2
+              className={css.bookTitle}
+              onClick={() => navigate(`/books/${book.id}`)}
+            >
+              {book.title}
+            </h2>
           </div>
           <div>
-            <img src={book.image_url} alt="#" />
+            <img className={css.image} src={book.image_url} alt="#" />
           </div>
           <div>
             {favoritesChecker(book.id) ? (
