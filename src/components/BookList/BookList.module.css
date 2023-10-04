@@ -94,4 +94,8 @@ button:hover {
   .bookList {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  button {
+    font-size: x-small;
+  }
 }
