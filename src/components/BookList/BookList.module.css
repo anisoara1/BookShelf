@@ -6,7 +6,8 @@ div {
 }
 
 .bookTitle {
-  font-size: small;
+  font-style: italic;
+  font-size: smaller;
   transition: all 0.5s ease-out;
 }
 
@@ -14,7 +15,7 @@ div {
   -webkit-transform: scale(1.1, 1.1);
   transform: scale(1.1, 1.1);
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.262);
-  color: #e04a32;
+  color: #b44c3a;
   cursor: pointer;
 }
 
@@ -28,7 +29,7 @@ div {
   justify-content: center;
   justify-items: center;
   background: #fdf4e3;
-  color: #b44c3a;
+  color: #e04a32;
 }
 
 .image {
@@ -48,13 +49,14 @@ div {
 }
 
 .book:hover {
-  opacity: 0.8;
   -webkit-transform: scale(1.1, 1.1);
   transform: scale(1.1, 1.1);
   box-shadow: 0 40px 130px rgba(0, 0, 0, 0.6);
 }
 
 button {
+  background-color: rgb(128, 145, 145);
+  color: rgb(178, 195, 195);
   width: 100%;
   transition: all 0.5s ease-out;
   font-size: 20px;
@@ -67,7 +69,7 @@ button {
 }
 button:hover {
   background-color: #753226;
-  color: azure;
+  color: rgb(139, 168, 168);
 }
 
 @media screen and (max-width: 1200px) {
